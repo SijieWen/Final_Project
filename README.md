@@ -61,3 +61,7 @@ Yamin Tang:
  3 we used sentimental score(x) and yelp rating(y) fit a regression model, use this model to generate normalized rating from our service 
  
  4 we redesigned the webpage, it looks nicer and neat
+ 
+ # Future Work
+ Increase the amount of restaurants in our database (current 50), so to increase the training data on our regression model.
+ Due to the size limit of EC2 and loading speed for the service, we use 50 for now
