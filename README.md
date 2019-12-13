@@ -54,14 +54,14 @@ Yamin Tang:
  
  ## For final, we extent futher on HTML web design and Machine Learning based on our midterm project, 
  
- 1 we created a dropdown for all available restaurants, users can select from the droplist for services 
+ 1. We created a dropdown for all available restaurants, users can select from the droplist for services 
  
- 2 we centralized all the services on one retrun instead of seperate pages from the midterm 
+ 2. We centralized all the services on one retrun instead of seperate pages from the midterm 
  
- 3 we used sentimental score(x) and yelp rating(y) fit a regression model, use this model to generate normalized rating from our service 
+ 3. We used sentimental score(x) and yelp rating(y) fit a regression model, use this model to generate normalized rating from our service 
  
- 4 we redesigned the webpage, it looks nicer and neat
+ 4. We redesigned the webpage, it looks nicer and neat
  
  # Future Work
  Increase the amount of restaurants in our database (current 50), so to increase the training data on our regression model.
- Due to the size limit of EC2 and loading speed for the service, we use 50 for now
+ Due to the size limit of EC2 and loading speed for the service, we use 50 for now.
