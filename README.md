@@ -50,4 +50,14 @@ Yamin Tang:
 
 2. Create NLP service – top 10 negative noun phrases used for a restaurant
 
-3. Create SKlearn service - 
+ # Update for Final Project 
+ 
+ ## For final, we extent futher on HTML web design and Machine Learning based on our midterm project, 
+ 
+ 1 we created a dropdown for all available restaurants, users can select from the droplist for services 
+ 
+ 2 we centralized all the services on one retrun instead of seperate pages from the midterm 
+ 
+ 3 we used sentimental score(x) and yelp rating(y) fit a regression model, use this model to generate normalized rating from our service 
+ 
+ 4 we redesigned the webpage, it looks nicer and neat
