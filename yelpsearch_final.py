@@ -75,7 +75,7 @@ def yelpsearch():
             chinese_blob = blob.translate(from_lang='en', to='zh-CN')
 
             # Service 2: Sentiment Score
-            score_blob = database[name][2]
+            score_blob = round(database[name][2],2)
 
             # Service 3: Adjective Words
             reviewpos = blob.pos_tags
@@ -124,7 +124,7 @@ def yelpsearch():
                 key2.append(key[len(key)-i-1])
             
             # Service 7: SKlearn
-            predict_blob = database[name][4]
+            predict_blob = round(database[name][4],2)
 
 
             return render_template('success.html',
